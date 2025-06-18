@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hacker</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="boss"><i>Portfolio</i></a>
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+        <a href="#">Experience</a>
+      </nav>
+    </header>
+    <section>
+      <h1>Hello ,It's Me</h1>
+      <h2>RJ. SAAD</h2>
+      <div class="name">
+        <h3>And I'm a</h3>
+        <h4>Frontend developer.</h4>
+      </div>
+    </section>
+    <div class="image">
+      <img src="assets/images/pexels-photo-771742.webp" alt="" />
+    </div>
+    <div class="para">
+      I’m a skilled frontend web developer with experience in HTML, CSS <br />
+      I build clean responsive websites focused on user-friendly design and
+      <br />modern standards With a passion for creating seamless user
+      <br />experiences I aim to bring every idea to life on the web.
+    </div>
+
+    <a href="" class="button">Download Cv</a>
+    <div class="icon">
+      <a href="">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href=""> <i class="fa-brands fa-twitter"></i></a>
+      <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+      <a href=""> <i class="fa-brands fa-facebook"></i></a>
+    </div>
+  </body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: #1f242d;
+    }
+    nav a {
+      color: rgb(209, 200, 184);
+      text-decoration: none;
+      margin-right: 70px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 1.3rem;
+      font-weight: 300;
+    }
+    nav a:hover {
+      color: red;
+    }
+    .active {
+      color: red;
+      font-weight: 400;
+    }
+    .boss {
+      color: rgb(104, 104, 84);
+      margin-left: 120px;
+      text-decoration: none;
+      margin-top: 20px;
+
+      overflow: hidden;
+      font-size: 3rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    .header {
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      z-index: 1000;
+    }
+    img {
+      display: flex;
+      align-items: center;
+      margin-left: 70%;
+      width: 300px;
+      height: 400px;
+      margin-bottom: 60%;
+    }
+    h1 {
+      font-size: 3rem;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: rgb(192, 190, 214);
+      background-color: #1f242d;
+
+      margin-top: 60px;
+      /* Or 'inline' if no padding/margin required on block level */
+      /* Customize as needed */
+
+      margin-left: 170px; /* Just to show the boundary */
+    }
+    .name {
+      display: flex;
+    }
+    .image {
+      padding-right: 100px;
+      margin-top: -200px; /* shift image upward */
+    }
+
+    .image img {
+      width: 400px;
+      height: 400px;
+      mix-blend-mode: darken;
+      border-radius: 50%;
+      display: inline-block;
+      display: flex;
+    }
+    div.para {
+      color: rgb(226, 231, 236);
+      margin-top: -68%;
+      margin-left: 170px;
+
+      font-size: 1.2rem;
+      text-align: justify;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .button {
+      text-decoration: none;
+      width: 200px;
+      height: 50px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px;
+      display: flex;
+      align-items: center; /* Center text vertically */
+      justify-content: center; /* Center text horizontally */
+      padding: 20px 30px;
+      margin-left: 250px;
+      margin-top: 30px;
+      background-color: rgb(185, 185, 216);
+      color: rgb(60, 63, 219); /* White font color */
+      font-size: larger;
+      font-weight: 700;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .button:hover {
+      background-color: rgb(7, 7, 131);
+      color: white;
+    }
+    h2 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: red;
+      background-color: #1f242d;
+      font-size: 4rem;
+      /* Or 'inline' if no padding/margin required on block level */
+      /* Customize as needed */
+
+      margin-left: 170px; /* Just to show the boundary */
+    }
+    h3 {
+      margin-top: 2px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: rgb(192, 190, 214);
+      background-color: #1f242d;
+      font-size: 2rem;
+
+      /* Or 'inline' if no padding/margin required on block level */
+      /* Customize as needed */
+
+      margin-left: 170px; /* Just to show the boundary */
+    }
+    h4 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: rgb(80, 68, 243);
+      background-color: #1f242d;
+      font-size: 2.2rem;
+
+      /* Or 'inline' if no padding/margin required on block level */
+      /* Customize as needed */
+
+      margin-left: 20px; /* Just to show the boundary */
+    }
+    .icon a {
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      border: 2px solid rgb(159, 171, 224);
+      border-radius: 50px;
+      font-size: larger;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 1px 10px;
+      color: rgb(146, 128, 226);
+      margin-right: 10px; /* Har icon ke beech thoda space */
+      margin-top: 50px;
+    }
+
+    .icon {
+      margin-left: 250px; /* Sirf left side se space dene ke liye */
+    }
+    .icon a:hover {
+      background-color: rgb(146, 128, 226);
+      color: rgb(22, 22, 216);
+    }
+  </style>
+</html>
